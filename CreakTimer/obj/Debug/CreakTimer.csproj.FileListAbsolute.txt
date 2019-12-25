@@ -1,0 +1,15 @@
+D:\Applications\cSharp\CreakTimer\CreakTimer\bin\Debug\CreakTimer.exe.config
+D:\Applications\cSharp\CreakTimer\CreakTimer\bin\Debug\CreakTimer.exe
+D:\Applications\cSharp\CreakTimer\CreakTimer\bin\Debug\CreakTimer.pdb
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\CreakTimer.csprojAssemblyReference.cache
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\MainWindow.g.cs
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\App.g.cs
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\CreakTimer_MarkupCompile.cache
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\CreakTimer_MarkupCompile.lref
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\MainWindow.baml
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\CreakTimer.g.resources
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\CreakTimer.Properties.Resources.resources
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\CreakTimer.csproj.GenerateResource.cache
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\CreakTimer.csproj.CoreCompileInputs.cache
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\CreakTimer.exe
+D:\Applications\cSharp\CreakTimer\CreakTimer\obj\Debug\CreakTimer.pdb

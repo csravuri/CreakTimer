@@ -3,10 +3,43 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:CreakTimer"
         mc:Ignorable="d"
         Title="CreakTimer" Height="450" Width="800">
     <Grid>
-        <Label>Add Dark mode check box some where</Label>
+        <TabControl>
+            <TabItem Header="Home">
+                <StackPanel>
+                    <Label Content="Target"/>
+                    <StackPanel>
+                        <Label Content="XXXXXX days"/>
+                        <Label Content="timer hh:mm:ss"/>
+                    </StackPanel>
+                    <Label Content="+ Days"/>
+                    <StackPanel>
+                        <Label Content="dd:mm:yyyy days"/>
+                        <Label Content="XXXXXX days"/>
+                    </StackPanel>
+                </StackPanel>
+                
+            </TabItem>
+            <TabItem Header="Configuration">
+                <StackPanel Margin="20">
+                    <Label Content="Target" FontSize="15"/>
+                    <DatePicker x:Name="dtpTarget" />                    
+                    
+                    <Label Content="+ Days" FontSize="15" Margin="0,30,0,0"/>
+                    <TextBox x:Name="txtDays"/>
+                    <StackPanel>
+                        <CheckBox Content="Enable Dark Mode" x:Name="chkEnableDarkMode"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,30,0,0" >
+                        <Button Content="Save" x:Name="btnSave" Click="BtnSave_Click" Margin="10,0,10,0"/>
+                        <Button Content="Reset" x:Name="btnReset" Click="BtnReset_Click" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </StackPanel>                
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
